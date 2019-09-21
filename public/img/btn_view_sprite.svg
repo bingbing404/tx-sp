@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 66" width="80" height="66">
+	<linearGradient x1="0%" y1="100%" y2="100%" id="__btn_gr">
+		<stop offset="0" stop-color="#ffbe40"/>
+		<stop offset=".336" stop-color="#fc5131"/>
+		<stop offset="1" stop-color="#ff1559"/>
+	</linearGradient>
+	<linearGradient x1="2.468%" y1="100%" y2="100%" id="__btn_gr_hover">
+		<stop stop-color="#FF9A00" offset="0%"/>
+		<stop stop-color="#FF4C24" offset="48.824%"/>
+		<stop stop-color="#FF004B" offset="100%"/>
+	</linearGradient>
+	<view id="before" viewBox="0 0 80 66"/>
+	<view id="after" viewBox="0 33 80 66"/>
+	<g id="g_before">
+		<path d="M77.061 22.583a6 6 0 0 0-9.985 5.376c-.355.027-.714.041-1.076.041H14C6.268 28 0 21.732 0 14S6.268 0 14 0h52c7.732 0 14 6.268 14 14a13.94 13.94 0 0 1-2.939 8.583z" fill="url(#__btn_gr)"/>
+		<path d="M72.581 24.13l4.28 3.056a1 1 0 0 1 0 1.628l-4.28 3.057A1 1 0 0 1 71 31.057v-6.114a1 1 0 0 1 1.581-.814z" fill="#FF316A"/>
+	</g>
+	<g id="g_after" transform="translate(0,33)">
+		<path d="M77.061 22.583a6 6 0 0 0-9.985 5.376c-.355.027-.714.041-1.076.041H14C6.268 28 0 21.732 0 14S6.268 0 14 0h52c7.732 0 14 6.268 14 14a13.94 13.94 0 0 1-2.939 8.583zm-4.48 1.546l4.28 3.057a1 1 0 0 1 0 1.628l-4.28 3.057A1 1 0 0 1 71 31.057v-6.114a1 1 0 0 1 1.581-.814z" fill="url(#__btn_gr_hover)" fill-rule="nonzero"/>
+	</g>
+</svg>
