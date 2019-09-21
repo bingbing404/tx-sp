@@ -1,0 +1,110 @@
+.main{
+  width:100%;
+  min-width:1000px;
+  height:68px;
+  background-color: rgba(255,255,255,.14);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+}
+.main .logo h1 a{
+  display: block;
+  width:135px;
+  height:36px;
+  background: url("../../../public/img/sprite_head_logo.png") 0 0 no-repeat;
+}
+.soso{
+  width:380px;
+  height: 38px;
+  border-radius: 30px;
+  background-color:rgba(256,256,256,.2);
+  position: relative;
+}
+.soso input{
+  width:196px;
+  height: 36px;
+  background-color:rgba(256,256,256,.0);
+  border:none;
+  outline: none;
+  padding-left: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #fff;
+  position: absolute;
+  left: 10px;
+}
+::-webkit-input-placeholder{
+  color:#fff;
+}
+.soso form div img{
+  width:1.3rem;
+  position: absolute;
+  left: 10px;
+}
+.soso form div span{
+  position: absolute;
+  display: inline-block;
+  width:50px;
+  font-size: 14px;
+  top:2px;
+  left: 32px;
+  color:#ff5c38;
+}
+.soso form div {
+  position: absolute;
+  top:32%;
+  left: 45%;
+  vertical-align: middle;
+}
+.soso form .ls{
+  position: absolute;
+  left: 195px;
+  top:7px;
+}
+.soso form button{
+  width:92px;
+  height: 38px;
+  position: absolute;
+  top:0%;
+  left: 76%;
+  padding:7px 15px;
+  border:none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  outline: none;
+  background-color: #ff183e;
+  cursor: pointer;
+  text-align: center;
+  color:#fff;
+  vertical-align: middle;
+}
+.soso form button img{
+  width: 1.2rem;
+  position: absolute;
+  left: 4px;
+  top:10px;
+}
+.soso form button span{
+  position: absolute;
+  display: inline-block;
+  width:66px;
+  top:8px;
+  left:20px;
+  font-size: 17px;
+}
+.con{
+  width: 300px;
+}
+.con div{
+  float: left;
+}
+.con div a img{
+  width:30px;
+  padding:30px 12px 0 12px;
+}
+.con div .user img{
+  width:45px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,1382 @@
+
+.fix{
+  position: fixed;
+  z-index: 20;
+  right:0;
+  bottom:40px;
+  width:36px;
+  border-radius: 4px 0 0 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.18);
+  text-align: center;
+}
+.fix ul li a{
+  display: block;
+  width:30px;
+  height: 30px;
+  padding:0 3px;
+}
+.fix ul li a img{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.fix ul li a:first-child{
+  margin-top: 10px;
+}
+.lunbo ul li a img{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+.lunbo .banner ul li{
+  display: none;
+}
+.lunbo .banner ul .active{
+  display: block;
+}
+.list{
+  width:265px;
+  height: 457px;
+  background-color:rgba(0,0,0,.2);
+  position: absolute;
+  top:9%;
+  left: 82.5%;
+}
+.list .title{
+  display: block;
+  font-size: 20px;
+  margin-left: -20px;
+  height:29px;
+  line-height: 29px;
+  font-weight: bold;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+  transition: font-size .08s ease;
+  color:rgba(255,255,255,.7);
+} 
+.list .hr{
+  position: absolute;
+  width:280px;
+  left:-25px;
+  right:10px;
+  bottom:405px;
+  left:20px;
+  height:1px;
+  background-color: rgba(255,255,255,.13)
+}
+.list .first{
+  display: block;
+  margin-bottom: 2px;
+  font-size:20px;
+  height: 29px;
+  margin-left: -20x;
+  color:#fff;
+  font-weight: bold;
+  cursor: default;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+.list .first img{
+  width:20px;
+  height: 20px;
+  line-height: 20px;
+}
+.list .first span{
+  height: 20px;
+  line-height: 20px;
+}
+.list .li{
+  display: block;
+  margin-left: 0px;
+  width:265px;
+  height: 35px;
+  font-size: 15px;
+  line-height: 35px;
+  cursor: pointer;
+  color:rgba(255,255,255,.7);
+}
+.list .li .sub-t{
+  display: none;
+  color:#ff5c38;
+}
+.list .li:hover .text{
+  display: inline-block;
+  font-size:22px;
+  font-weight: bold;
+  color:#ff5c38;
+}
+.list .li:hover .sub-t{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 13px;
+}
+.nav{
+  display: table;
+  width:1200px;
+  margin:0 auto 40px;
+  color:#666;
+  display: flex;
+  margin-top: 20px;
+}
+.nav .col{
+  margin-right: 15px;
+  width:258px;
+  height: 99px;
+}
+.nav .col .item{
+  width:234px;
+  padding:0 12px;
+  margin-bottom: 16px;
+  border-radius: 24px;
+  background-color: #f8f8f8;
+}
+.nav .col .item .bold{
+  display: inline-block;
+  margin-right: 15px;
+  width:3em;
+  font-weight: bold;
+  overflow: visible;
+  font-size: 15ps;
+  line-height: 42px;
+  vertical-align: top;
+  white-space: nowrap;
+  margin-right: 24px;
+}
+.nav .col .item .bold img{
+  width:18px;
+}
+.nav .col .item .grey{
+  position: relative;
+  display: inline-block;
+  width:4em;
+  overflow: hidden;
+  margin: 0 6px;
+  letter-spacing: normal;
+  line-height: 42px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.nav .line{
+  width:1px;
+  height: 100px;
+  background-color: #eee;
+  margin-left: 10px;
+}
+.nav .ls{
+  margin-left: 15px;
+  float: left;
+}
+.nav .ls div a{
+  max-width: 4em;
+  display: inline-block;
+  vertical-align: top;
+  margin:0 12px 16px;
+  overflow: hidden;
+  line-height: 42px;
+  color:#111;
+}
+.nav .ls div a:hover{
+  color:#ff5c38;
+}
+.nav a:hover{
+  color:#ff5c38;
+}
+.new{
+  position: relative;
+  width:100%;
+  margin-bottom: 90px;
+  height: 223px;
+}
+.new .te{
+  position: relative;
+  width:1200px;
+  margin:0 auto;
+  color:#666;
+} 
+.new .te h2{
+  width:135px;
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+}
+.new .each{
+  width:1200px;
+  position: relative;
+  margin:0 auto;
+}
+.new .each ul li{
+  float: left;
+  width:200px;
+}
+.new .each ul li img{
+  width:185px;
+  height: 105px;
+  border-radius: 5px;
+}
+.new .each ul li div{
+  height: auto;
+  outline: 0 auto;
+  font-size: 14px;
+  max-height: 44px;
+  overflow: hidden;
+  line-height: 23px;
+  width: 180px;
+  cursor: pointer;
+}
+.new .each ul li div:hover{
+  color:#ff5c38;
+}
+.cho{
+  clear: both;
+  position: relative;
+  width:100%;
+  margin-bottom: 0px;
+  height: 223px;
+}
+.cho .te{
+  position: relative;
+  width:1200px;
+  height:20px;
+  margin:0 auto;
+  color:#666;
+} 
+.cho .te .tle{
+  display: inline-block;
+  width:135px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+}
+.cho .te .small{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -35px;
+  margin-left: -295px;
+}
+.cho .te .small ul li{
+  float: left;
+  height: 34px;
+  padding-right: 15px;
+  border-radius: 17px;
+  background-color: #f8f8f8;
+  vertical-align: top;
+}
+.cho .te .small ul li a:hover{
+  color:#ff5c38;
+}
+.cho .te .small ul li a img{
+  width:24px;
+  height: 24px;
+  border-radius: 50%;
+  margin:5px 5px 0;
+}
+.cho .te .small ul li a span{
+  display: inline-block;
+  font-size: 13px;
+  line-height: 35px;
+  vertical-align: top;
+}
+.cho .te h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.cho .each{
+  width:1200px;
+  position: relative;
+  margin:0 auto;
+}
+.cho .each ul li{
+  float: left;
+  width:200px;
+}
+.cho .each ul li img{
+  width:185px;
+  height: 105px;
+  border-radius: 5px;
+}
+.cho .each ul li div{
+  height: auto;
+  outline: 0 auto;
+  font-size: 14px;
+  max-height: 44px;
+  overflow: hidden;
+  line-height: 23px;
+  width: 180px;
+  cursor: pointer;
+}
+.cho .each ul li div:hover{
+  color:#ff5c38;
+}
+.video{
+  position: relative;
+  width:100%;
+  margin-bottom: 40px;
+}
+.video .tle{
+  width:1200px;
+  position: relative;
+  margin: 0 -45px;
+}
+.video .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.video .tle .small{
+  position: relative;
+  top:5px;
+  margin:0 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+.video .tle .small ul li{
+  float: left;
+  padding:0 24px;
+  border-radius: 17px;
+  background-color: #f8f8f8;
+  color:#111;
+  font-size: 13px;
+  line-height: 34px;
+  margin:0 10px;
+}
+.video .tle .small ul li:hover{
+  background:linear-gradient(90deg,#ffb821 0,#ff5c38 45%,#ff1459);
+}
+.video .tle .small ul li:hover a{
+  color:#fff;
+}
+.video .msg{
+  max-width: 1549px;
+  width:1200px;
+  z-index:2;
+  position: relative;
+  margin:0 auto;
+  height: 366px;
+}
+.video .msg .le{
+  width:591px;
+  height: 366px;
+  margin-right: 18px;
+  float: left;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #000;
+}
+.video .msg .ri{
+  max-width: 1549px;
+  width:591px;
+  max-height: 366px;
+  float: left;
+  overflow: hidden;
+}
+.video .msg .ri ul li{
+  float: left;
+  width:185px;
+  margin:0 12px 40px 0;
+  color:#999;
+  font-size: 14px;
+  vertical-align: top;
+  letter-spacing: normal;
+}
+.video .msg .ri ul li img{
+  width:185px;
+  height: 105px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+.video .msg .ri ul li div{
+  width:185px;
+  height: 44px;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-all;
+  color:#111;
+  cursor: pointer;
+}
+.video .msg .ri ul li div:hover{
+  color:#ff5c38;
+}
+.movie{
+  position: relative;
+  width:100%;
+  margin-bottom: 40px;
+}
+.movie .auto{
+  width:1200px;
+  height: 734px;
+  position: relative;
+  margin:0 auto;
+  z-index: 2;
+}
+.movie .auto .le{
+  width:794px;
+  float: left;
+}
+.movie .auto .le .tle{
+  margin-left: -730px;
+}
+.movie .auto .le .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.movie .auto .le .msg{
+  margin-right: -18px;
+}
+.movie .auto .le .msg ul{
+  max-height: 674px;
+  overflow: hidden;
+  letter-spacing: -5px;
+}
+.movie .auto .le .msg ul li{
+  width:185px;
+  float: left;
+  margin:0 18px 40px 0;
+  color:#999;
+  font-size: 12px;
+  vertical-align: top;
+  letter-spacing: normal;
+  transition: all 1s;
+}
+.movie .auto .le .msg ul li a{
+  position: relative;
+  width:185px;
+  height: 259px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  outline:0 none;
+}
+.movie .auto .le .msg ul li:hover{
+  transform: scale(1.1);
+}
+.movie .auto .le .msg ul li a img{
+  visibility: visible;
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background:#f8f8f8;
+  background-color:rgba(236,236,236,.1);
+  cursor: pointer;
+}
+.movie .auto .le .msg ul li a .time{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:0;
+  width:100px;
+  height: 20px;
+  padding:10px 10px 4px;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  /* background:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.3) 25.5%,rgba(0,0,0,.08) 70%,rgba(0,0,0,0)); */
+  color:#fff;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.movie .auto .le .msg ul li div{
+  height:40px;
+}
+.movie .auto .le .msg ul li div p{
+  font-weight: bold;
+  max-height: 44px;
+  height:auto;
+  line-height: 23px;
+  cursor: pointer;
+  color:#111;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.movie .auto .le .msg ul li div p:hover{
+  color:#ff5c38;
+}
+.movie .auto .le .msg ul li div div{
+  width:100%;
+  font-size: 13px;
+  line-height: 20px;
+  color:#999;
+  cursor: default;
+}
+.movie .auto .le .msg ul li div div:hover{
+  color:#000;
+}
+.movie .auto .ri{
+  width:388px;
+  float: right;
+} 
+.movie .auto .ri .tle{
+  margin-left: -238px;
+}
+.movie .auto .ri .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.movie .auto .ri .msg ul{
+  padding:12px 0;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.movie .auto .ri .msg ul li{
+  border-top:none;
+  padding:18px 30px 15px 40px;
+  margin:0 20px;
+  position: relative;
+  color:#111;
+  cursor: pointer;
+}
+.movie .auto .ri .msg ul li a .num{
+  left:4px;
+  /* background-image: linear-gradient(180deg,#ffb821 0,#ff5c38 45%,#ff1459); */
+  color:#111;
+  font-size: 28px;
+  position: absolute;
+  margin-top: -4px;
+  line-height: 30px;
+}
+.movie .auto .ri .msg ul li a .num.e{
+  color:#ff183e;
+}
+.movie .auto .ri .msg ul li a .title{
+  margin-right: 80px;
+  color:#111;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.movie .auto .ri .msg ul li a .title:hover{
+  color:#ff5c38;
+}
+.movie .auto .ri .msg ul li a .sub-te{
+  color:#999;
+  font-size: 13px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: -70px;
+}
+.movie .auto .ri .msg ul li a .look{
+  right:0;
+  position: absolute;
+  top:20px;
+  color:#999;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.movie .auto .ri .msg ul li:not(:first-child){
+  border-top:0.8px solid #eee;
+}
+.sync{
+  position: relative;
+  width:100%;
+  margin-bottom: 40px;
+}
+.sync .auto{
+  width:1200px;
+  height: 734px;
+  position: relative;
+  margin:0 auto;
+  z-index: 2;
+}
+.sync .auto .le{
+  width:794px;
+  float: left;
+}
+.sync .auto .le .tle{
+  margin-left: -675px;
+}
+.sync .auto .le .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.sync .auto .le .msg{
+  margin-right: -18px;
+}
+.sync .auto .le .msg ul{
+  max-height: 674px;
+  overflow: hidden;
+  letter-spacing: -5px;
+}
+.sync .auto .le .msg ul li{
+  width:185px;
+  float: left;
+  margin:0 18px 40px 0;
+  color:#999;
+  font-size: 12px;
+  vertical-align: top;
+  letter-spacing: normal;
+  transition: all 1s;
+}
+.sync .auto .le .msg ul li a{
+  position: relative;
+  width:185px;
+  height: 259px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  outline:0 none;
+}
+.sync .auto .le .msg ul li:hover{
+  transform: scale(1.1);
+}
+.sync .auto .le .msg ul li a img{
+  visibility: visible;
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background:#f8f8f8;
+  background-color:rgba(236,236,236,.1);
+  cursor: pointer;
+}
+.sync .auto .le .msg ul li a .time{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:0;
+  width:100px;
+  height: 20px;
+  padding:10px 10px 4px;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  /* background:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.3) 25.5%,rgba(0,0,0,.08) 70%,rgba(0,0,0,0)); */
+  color:#fff;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.sync .auto .le .msg ul li div{
+  height:40px;
+}
+.sync .auto .le .msg ul li div p{
+  font-weight: bold;
+  max-height: 44px;
+  height:auto;
+  line-height: 23px;
+  cursor: pointer;
+  color:#111;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.sync .auto .le .msg ul li div p:hover{
+  color:#ff5c38;
+}
+.sync .auto .le .msg ul li div div{
+  width:100%;
+  font-size: 13px;
+  line-height: 20px;
+  color:#999;
+  cursor: default;
+}
+.sync .auto .le .msg ul li div div:hover{
+  color:#000;
+}
+.sync .auto .ri{
+  width:388px;
+  float: right;
+}
+.sync .auto .ri .tle{
+  margin-left: -175px;
+}
+.sync .auto .ri .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.sync .auto .ri .msg ul{
+  padding:12px 0;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.sync .auto .ri .msg ul li{
+  border-top:none;
+  padding:18px 30px 15px 40px;
+  margin:0 20px;
+  position: relative;
+  color:#111;
+  cursor: pointer;
+}
+.sync .auto .ri .msg ul li a .num{
+  left:4px;
+  /* background-image: linear-gradient(180deg,#ffb821 0,#ff5c38 45%,#ff1459); */
+  color:#111;
+  font-size: 28px;
+  position: absolute;
+  margin-top: -4px;
+  line-height: 30px;
+}
+.sync .auto .ri .msg ul li a .num.e{
+  color:#ff183e;
+}
+.sync .auto .ri .msg ul li a .title{
+  margin-right: 80px;
+  color:#111;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sync .auto .ri .msg ul li a .title:hover{
+  color:#ff5c38;
+}
+.sync .auto .ri .msg ul li a .sub-te{
+  color:#999;
+  font-size: 13px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: -78px;
+}
+.sync .auto .ri .msg ul li a .look{
+  right:0;
+  position: absolute;
+  top:20px;
+  color:#999;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.sync .auto .ri .msg ul li:not(:first-child){
+  border-top:0.8px solid #eee;
+}
+.show{
+  position: relative;
+  width:100%;
+  height: 426px;
+  margin-bottom: 40px;
+}
+.show .auto{
+  width:1200px;
+  position: relative;
+  z-index: 2;
+  margin:0 auto;
+}
+.show .auto .le{
+  width:794px;
+  float: left;
+}
+.show .auto .le .tle{
+  margin-left: -710px;
+}
+.show .auto .le .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.show .auto .le .msg{
+  margin-right: -18px;
+}
+.show .auto .le .msg ul{
+  max-height: 366px;
+  overflow: hidden;
+}
+.show .auto .le .msg ul li{
+  width:185px;
+  display: inline-block;
+  position: relative;
+  margin:0 14px 40px 0;
+  color:#999;
+  font-size: 12px;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.show .auto .le .msg ul li a{
+  width:185px;
+  height: 105px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+.show .auto .le .msg ul li a img{
+  width:100%;
+  height: 100%;
+  background:#f8f8f8;
+  vertical-align: bottom;
+  border-radius: 4px;
+}
+.show .auto .le .msg ul li a .time{
+  position: absolute;
+  right: 0;
+  bottom: 52px;
+  left: 0;
+  width:auto;
+  height: 20px;
+  padding:10px 10px 4px;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  color:#fff;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  background: linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.3) 25.5%,rgba(0,0,0,.08) 70%,rgba(0,0,0,0));
+  letter-spacing: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.show .auto .le .msg ul li .con{
+  height: 44px;
+  overflow: hidden;
+  margin-top: 8px;
+  margin-left: -60px;
+}
+.show .auto .le .msg ul li .con p{
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 14px;
+  color:#111;
+}
+.show .auto .le .msg ul li .con div{
+  width:100%;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: default;
+  color:#999;
+}
+.show .auto .ri{
+  width:388px;
+  float: right;
+}
+.show .auto .ri .tle{
+  margin-left: -235px;
+}
+.show .auto .ri .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.show .auto .ri .msg{
+  clear: both;
+  width: 388px;
+  height: 335px;
+  padding:6px 0 0;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.show .auto .ri .msg .le ul{
+  width: 388px;
+  clear: both;
+}
+.show .auto .ri .msg .le ul li{
+  display: inline-block;
+}
+.show .auto .ri .msg .le ul li a{
+  padding:14px 0 25px 55px;
+  display: inline-block;
+  width:136px;
+  position: relative;
+}
+.show .auto .ri .msg .le ul li a .num{
+  position: absolute;
+  left:16px;
+  color:#111;
+  font-size: 26px;
+  margin-top: -4px;
+  line-height: 30px;
+}
+.show .auto .ri .msg .le ul li a .tle:hover{
+  color:#ff5c38;
+}
+.show .auto .ri .msg .le ul li a .num.e{
+  color: #ff5c38;
+}
+.show .auto .ri .msg .le ul li a .tle{
+  margin-right: -210px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.show .auto .ri .msg .le ul li a .new{
+  display: block;
+  position: absolute;
+  top:42px;
+  right: -15px;
+  color:#999;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.cart{
+  position: relative;
+  width:100%;
+  height: 370px;
+  margin-bottom: 40px;
+}
+.cart .auto{
+  width:1200px;
+  position: relative;
+  z-index: 2;
+  margin:0 auto;
+}
+.cart .auto .le{
+  width:794px;
+  float: left;
+}
+.cart .auto .le .tle{
+  margin-left: -710px;
+}
+.cart .auto .le .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.cart .auto .le .msg{
+  margin-right: -18px;
+}
+.cart .auto .le .msg ul{
+  width:100%;
+  overflow: hidden;
+  margin-bottom: -40px;
+}
+.cart .auto .le .msg ul li{
+  width:185px;
+  display: inline-block;
+  position: relative;
+  margin:0 14px 40px 0;
+  padding:0;
+  color:#999;
+  font-size: 12px;
+  vertical-align: top;
+  letter-spacing: normal;
+}
+.cart .auto .le .msg ul li a{
+  width:185px;
+  height: 259px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+.cart .auto .le .msg ul li a img{
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #f8f8f8;
+}
+.cart .auto .le .msg ul li a div{
+  position: absolute;
+  right: 0;
+  bottom: 53px;
+  left: 0;
+  width:auto;
+  height: 20px;
+  padding:10px 10px 4px;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  letter-spacing: normal;
+  white-space: nowrap;
+}
+.cart .auto .le .msg ul li .tit{
+  height: 44px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+.cart .auto .le .msg ul li .tit div{
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 14px;
+  color:#111;
+  height: auto;
+  line-height: 23px;
+  max-height: 44px;
+}
+.cart .auto .le .msg ul li .tit div:hover{
+  color:#ff5c38;
+}
+.cart .auto .le .msg ul li .tit p{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: default;
+  white-space: nowrap;
+  color:#999;
+}
+.cart .auto .le .msg ul li .tit p:hover{
+  color:#666;
+}
+.cart .auto .ri{
+  width:388px;
+  float: right;
+}
+.cart .auto .ri .tle{
+  margin-left: -235px;
+}
+.cart .auto .ri .tle h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: top;
+  color:#111;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.cart .auto .ri .msg ul{
+  width: 388px;
+  height: 290px;
+  padding-top: 13px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  vertical-align: middle; 
+}
+.cart .auto .ri .msg ul li{
+  display: inline-block;
+  width: 135px;
+  height: 55px;
+  padding-bottom: 17px;
+  padding:14px 0 7px 55px;
+  position: relative;
+  vertical-align: top;
+}
+.cart .auto .ri .msg ul li a .num{
+  position: absolute;
+  left:16px;
+  color:#111;
+  font-size: 26px;
+  margin-top: -4px;
+  line-height: 30px;
+}
+.cart .auto .ri .msg ul li a .num.e{
+  color:#ff5c38;
+}
+.cart .auto .ri .msg ul li a .tle{
+  margin-right: -185px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cart .auto .ri .msg ul li a .tle:hover{
+  color: #ff5c38;
+}
+.cart .auto .ri .msg ul li a .new{
+  display: block;
+  position: absolute;
+  top:42px;
+  right: 0px;
+  color:#999;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.child{
+  position: relative;
+  width:100%;
+  margin-bottom: 40px;
+}
+.child .tle{
+  width:1200px;
+  z-index:2;
+  position: relative;
+  margin:0 -400px;
+}
+.child .tle h2{
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  margin:0 10px 20px 0;
+  color:#111;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+  vertical-align: top;
+}
+.child .msg{
+  width:1200px;
+  margin:0 auto;
+  z-index: 2;
+  position: relative;
+}
+.child .msg ul{
+  width:100%;
+  overflow:hidden;
+  position: relative;
+  margin-right: -18px;
+  margin-bottom: -40px;
+  letter-spacing: -5px;
+}
+.child .msg ul li{
+  display: inline-block;
+  width:185px;
+  position: relative;
+  margin:0 15px 40px 0;
+  padding:0;
+  color:#999;
+  font-size: 12px;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.child .msg ul li a{
+  width:185px;
+  height: 259px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+.child .msg ul li a img{
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #f8f8f8;
+}
+.child .msg ul li a .new{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  width:auto;
+  height: 20px;
+  padding:10px 10px 4px;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  color:#fff;
+  font-size: 13px;
+  letter-spacing: normal;
+  line-height: 20px;
+  cursor: pointer;
+}
+.child .msg ul li .tit{
+  height: 44px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.child .msg ul li .tit p{
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 14px;
+  height: auto;
+  max-height: 44px;
+  line-height: 23px;
+  color:#111;
+}
+.child .msg ul li .tit p:hover{
+  color:#ff5c38;
+}
+.child .msg ul li .tit span{
+  display: block;
+  width:100%;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: default;
+}
+.record{
+  position: relative;
+  width:100%;
+  margin-bottom: 40px;
+}
+.record .tle{
+  width:1200px;
+  z-index:2;
+  position: relative;
+  margin:0 -388px;
+}
+.record .tle h2{
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  margin:0 10px 20px 0;
+  color:#111;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+  vertical-align: top;
+}
+.record .msg{
+  width:1200px;
+  margin:0 auto;
+  z-index: 2;
+  position: relative;
+}
+.record .msg ul{
+  width:100%;
+  overflow:hidden;
+  position: relative;
+  margin-right: -18px;
+  margin-bottom: -40px;
+  letter-spacing: -5px;
+}
+.record .msg ul li{
+  display: inline-block;
+  width:185px;
+  position: relative;
+  margin:0 15px 40px 0;
+  padding:0;
+  color:#999;
+  font-size: 12px;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.record .msg ul li a{
+  width:185px;
+  height: 259px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+.record .msg ul li a img{
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #f8f8f8;
+}
+.record .msg ul li a .new{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  width:auto;
+  height: 20px;
+  padding:10px 10px 4px;
+  overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  color:#fff;
+  font-size: 13px;
+  letter-spacing: normal;
+  line-height: 20px;
+  cursor: pointer;
+}
+.record .msg ul li .tit{
+  height: 44px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.record .msg ul li .tit p{
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 14px;
+  height: auto;
+  max-height: 44px;
+  line-height: 23px;
+  color:#111;
+}
+.record .msg ul li .tit p:hover{
+  color:#ff5c38;
+}
+.record .msg ul li .tit span{
+  display: block;
+  width:100%;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: default;
+}
+.gg{
+  width:1200px;
+  height: 130px;
+  position: relative;
+  margin:0 auto;
+}
+.gg .le{
+  float: left;
+}
+.gg .le img{
+  border-radius: 4px;
+}
+.gg .ri{
+  float: left;
+  margin-left: 5px;
+}
+.gg .ri img{
+  border-radius: 4px;
+}
